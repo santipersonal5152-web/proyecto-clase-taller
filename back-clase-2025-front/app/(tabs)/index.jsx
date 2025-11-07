@@ -17,7 +17,7 @@ function enviarMensaje() {
     mensaje: mensajelocal
   }
 
-  axios.post("http://192.168.1.39:5000/subir", Mensaje)
+  axios.post("https://backet-e1vk.onrender.com/subir", Mensaje)
   .then(function (res) {
     alert("El mensaje se envio");
     setTimeout(function(){
